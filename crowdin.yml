@@ -1,3 +1,3 @@
 files:
-  - source: AsunaRobot/localization/en.yaml 
-    translation: /**/AsunaRobot/localization/%locale_with_underscore%.yaml
+  - source: Yumeko-Bot/localization/en.yaml 
+    translation: /**/Yumeko-Bot/localization/%locale_with_underscore%.yaml
