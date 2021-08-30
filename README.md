@@ -1,16 +1,9 @@
 <p align="center">
-  <img src="https://telegra.ph/file/329647a798cccb101aecf.jpg">
+  <img src="https://telegra.ph/file/53a8d858f6e83debec3ce.jpg">
 </p>
 
-# Amelia Group BoT
-
-### Telegram Group
-<p align="left">
-<a href="https://t.me/warbotzsupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
-
-### Bot And Channel 
-* Bot Link:  <a href="http://t.me/AmeliaGroup_bot" alt=" Amelia "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-AmeliaRobot-blue" /> </a>
-* Support Channel: <a  href="https://t.me/warbotz" alt="Help Centre Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Ameliagroupbot%20Update%20Channel-9cf" /> </a>
+# Yumeko Bot
+A Python Based Dynamic Multipurpose telegram group management to manage your group easily
 
 ### Creating your own modules.
 
@@ -20,7 +13,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-from AmeliaRobot import dispatcher.
+from Yumeko-Bot import dispatcher.
 
 You can then add commands using the usual
 
@@ -40,28 +33,15 @@ through the /stats command, which is only available to the bot owner.
 
 Once you've set up your database and your configuration is complete, simply run the bat file(if on windows) or run (Linux):
 
-python3 -m Amelia
+python3 -m Yumeko-Bot
 
 You can use nssm to install the bot as service on windows and set it to restart on /gitpull 
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at <p align="left">
-<a href="https://t.me/warbotzsupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+### Deploy to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Rexinazor/Yumeko-Bot)
 
-## How to setup on Heroku 
-For starters click on this button 
-
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/war-legend/AmeliaRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
-
-
-## Our Telegram Channel and Group
-
-* [Warbotz](https://telegram.dog/thewarbotz)
-* [WarBotzChat](https://telegram.dog/WarBotzsupport)
-
-## Credits, and Thanks to 
-*   [Abhishek](https://telegram.dog/xAbhisheksingh)
 
 
 
