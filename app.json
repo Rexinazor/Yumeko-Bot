@@ -1,5 +1,5 @@
 {
-      "name": "Amelia Robot",
+      "name": "Yumeko Bot",
       "description": "An Anime Theme Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,10 +8,9 @@
          "manager",
          "Amelia"
       ],
-    
-   "logo":    "https://telegra.ph/file/329647a798cccb101aecf.jpg",
+   
 
-   "repository": "https://github.com/war-legend/AmeliaRoBot",
+   "repository": "https://github.com/Rexinazor/Yumeko-Bot",
    "addons": [
           {
          "options": {
@@ -44,12 +43,12 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1868693368"
+         "value": "1866542500"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
          "required": true,
-         "value": "1868693368"
+         "value": ""
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -61,17 +60,17 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Itsmelegend"
+         "value": "Avrazel"
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah.",
          "required": true,
-         "value": "Warbotzchat"
+         "value": "BHZBot_Support"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
          "required": true,
-         "value": ""
+         "value": "ANYTHING"
       },
       "IBM_WATSON_CRED_URL": {
          "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
@@ -84,12 +83,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "@AmeliaLogUpdate"
+         "value": "-1001270919103"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "@AmeliaLogUpdate"
+         "value": "-1001270919103"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
