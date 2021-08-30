@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/AmeliaRobot 
-RUN git clone -b shiken https://github.com/HuntingBots/AsunaRobot /root/AsunaRobot
-WORKDIR /root/AsunaRobot
+# Copy Python Requirements to /root/Yumeko-Bot 
+RUN git clone -b shiken https://github.com/Rexinazor/Yumeko-Bot /root/Yumeko-Bot
+WORKDIR /root/Yumeko-Bot
 
 #Copy config file to /root/AmeliaRobot/AmeliaRobot
-COPY ./AsunaRobot/sample_config.py ./AmeliaRobot/config.py* /root/AmeliaRobot/AmeliaRobot/
+COPY ./Yumeko-Bot/sample_config.py ./Yumeko-Bot/config.py* /root/Yumeko-Bot/Yumeko-Bot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","AmeliaRobot"]
+CMD ["python3","-m","Yumeko-Bot"]
