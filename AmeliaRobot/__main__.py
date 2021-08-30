@@ -86,7 +86,7 @@ Hit /help to find out more about how to use me on full potential.
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Add Yumeko to your group ➕️", url="t.me/ameliagroup_bot?startgroup=true"),
+            text="➕️ Add Yumeko to your group ➕️", url="t.me/{}?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="Yumeko_"),
