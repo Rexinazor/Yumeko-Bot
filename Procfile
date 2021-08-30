@@ -1,3 +1,3 @@
-worker: python3 -m AmeliaRobot
-web: python3 -m AmeliaRobot
+worker: python3 -m Yumeko-Bot
+web: python3 -m Yumeko-Bot
 ps:scale worker=1
