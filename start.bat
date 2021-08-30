@@ -1,4 +1,4 @@
 @echo off
-TITLE Asuna Robot 
+TITLE Yumeko-Bot 
 :: Enables virtual env mode and then starts asuna
-env\scripts\activate.bat && py -m AsunaRobot
+env\scripts\activate.bat && py -m Yumeko-Bot
